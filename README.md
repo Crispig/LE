@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # LE
 # Task description
 
-In the preliminary round of ASC20-21, a cloze style dataset is provided. The dataset is collected from internet and contains multi-level English language exams used in China for high school, and college entrance exams: CET4 (College English Test 4), CET6 (College English Test 6), and NETEM (National Entrance Test of English for MA/MS Candidates). Part of the data comes from public CLOTH dataset [9]. There are 4603 passages and 83395 questions in the training set, 400 passages and 7798 questions in the developer set, and 400 passages and 7829 questions in the test set. The participants should design and train their neural network to achieve the best performance on the test set.
+In the preliminary round of ASC20-21, a cloze style dataset is provided. The dataset is collected from internet and contains multi-level English language exams used in China for high school, and college entrance exams: CET4 (College English Test 4), CET6 (College English Test 6), and NETEM (National Entrance Test of English for MA/MS Candidates). Part of the data comes from public CLOTH dataset. There are 4603 passages and 83395 questions in the training set, 400 passages and 7798 questions in the developer set, and 400 passages and 7829 questions in the test set. The participants should design and train their neural network to achieve the best performance on the test set.
 
 
 
@@ -91,7 +90,6 @@ the result json file on test dataset
 3. run ./run.sh in ./LE/script/Model-n directory.
 4. cancel the annotation of first line in ./final_dev.sh,run it and you can get the score file from new model.
 5. run the steps mentioned above.
-=======
-# LE
-Complete the “Complete Fill-in-the-blank” task using the Bert model
->>>>>>> 59a99b477ec458b74525805da0d6b369041a8afa
+
+
+
