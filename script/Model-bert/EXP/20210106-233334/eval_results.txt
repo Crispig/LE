@@ -1,0 +1,3 @@
+global_step = 1816
+valid_eval_accuracy = 0.7875096178507309
+valid_eval_loss = 0.7448147167177761

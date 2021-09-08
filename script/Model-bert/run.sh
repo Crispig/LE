@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python -u main.py --output_dir EXP/ --do_eval --do_train --data_dir ./data/data4 --save_model --load_path ../../model --train_batch_size 4 --bert_model bert-base-uncased --learning_rate 5e-5 --num_train_epochs 2 

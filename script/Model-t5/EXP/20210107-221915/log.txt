@@ -1,0 +1,9 @@
+device cuda n_gpu 1 distributed training False
+***** Running training *****
+  Batch size = 2
+  Num steps = 10926
+step: 10 | train loss: 0.10758918523788452 | train acc 0.2644927501678467
+step: 20 | train loss: 0.08654086291790009 | train acc 0.3027777671813965
+step: 30 | train loss: 0.0838758647441864 | train acc 0.2634408473968506
+step: 40 | train loss: 0.07277926057577133 | train acc 0.2638888955116272
+step: 50 | train loss: 0.06234034523367882 | train acc 0.2829670310020447

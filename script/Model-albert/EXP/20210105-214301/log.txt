@@ -1,0 +1,7 @@
+device cuda n_gpu 2 distributed training False
+***** Running evaluation *****
+  Batch size = 8
+***** Valid Eval results *****
+  global_step = 0
+  valid_eval_accuracy = 0.9036932546806874
+  valid_eval_loss = 0.36484357391325933

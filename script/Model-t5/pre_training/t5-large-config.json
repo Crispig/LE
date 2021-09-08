@@ -1,0 +1,25 @@
+{
+  "architectures": [
+    "T5WithLMHeadModel"
+  ],
+  "d_ff": 4096,
+  "d_kv": 64,
+  "d_model": 1024,
+  "dropout_rate": 0.1,
+  "finetuning_task": null,
+  "initializer_factor": 1.0,
+  "is_decoder": false,
+  "layer_norm_epsilon": 1e-06,
+  "n_positions": 512,
+  "num_heads": 16,
+  "num_labels": 2,
+  "num_layers": 24,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pruned_heads": {},
+  "relative_attention_num_buckets": 32,
+  "torchscript": false,
+  "use_bfloat16": false,
+  "vocab_size": 32128
+}

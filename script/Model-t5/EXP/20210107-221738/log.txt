@@ -1,0 +1,1 @@
+device cuda n_gpu 1 distributed training False
